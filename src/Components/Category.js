@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Items from "./Items";
 import data from "../data.json";
 export default function Category(props) {
+  
   return (
     <>
       <div className="container my-3">
@@ -13,7 +14,7 @@ export default function Category(props) {
           {data.map((item) => {
             if (props.val === true || props.val === item.categoryName) {
               return (
-                <div className="col-4">
+                <div className="col-4 my-2">
                   <Items
                     key={item.images[0].baseUrl}
                     name={item.name}
@@ -22,6 +23,7 @@ export default function Category(props) {
                 </div>
               );
             }
+            
           })}
         </div>
       </div>

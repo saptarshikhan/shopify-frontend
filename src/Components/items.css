@@ -1,3 +1,35 @@
-.box{
-    background-color: black;
+.card-title{
+    color: rgb(232, 0, 0);
+    opacity: 80%;
+}
+.box {
+    background-color:rgb(190, 183, 172);
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-color: rgb(130, 127, 121);
+    color: white; 
+    box-shadow: 5px 5px 5px rgb(58, 58, 58);
+}
+.btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 1
 }
